@@ -1,1 +1,1 @@
-#include decorate/DEC_DECO
+#include decorate/DEC_DECO.txt
