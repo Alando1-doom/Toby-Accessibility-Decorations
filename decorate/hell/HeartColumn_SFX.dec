@@ -1,0 +1,14 @@
+ACTOR HeartColumn_SFX 36
+{
+    Radius 16
+    Height 40
+    ProjectilePassHeight -16
+    +SOLID
+    States
+    {
+    Spawn:
+        COL5 A 14
+        COL5 B 14 A_PlaySoundEx("deco/heartbeat", "SoundSlot5", 0, 0)
+        Loop
+    }
+}

@@ -1,0 +1,30 @@
+ACTOR ImpaledGuy_SFX 26
+{
+    Radius 16
+    Height 64
+    ProjectilePassHeight -16
+    +SOLID
+    States
+    {
+    Spawn:
+        POL6 A 6
+        POL6 B 8
+        POL6 A 6
+        POL6 B 8
+        POL6 A 6
+        POL6 B 8
+        POL6 A 6
+        POL6 B 8
+        POL6 A 6
+        POL6 B 8
+        POL6 A 6
+        POL6 B 8
+        POL6 A 6
+        POL6 B 8
+        POL6 A 6
+        POL6 B 8
+        POL6 A 6
+        POL6 B 8 A_PlaySoundEx("deco/impaled", "Auto", 0, 0)
+        Loop
+    }
+}

@@ -1,0 +1,16 @@
+ACTOR BurningBarrel_SFX 70
+{
+    Game Doom
+    SpawnID 149
+    Radius 16
+    Height 32
+    ProjectilePassHeight -16
+    +SOLID
+    States
+    {
+    Spawn:
+        FCAN A 0 Bright A_PlaySoundEx("deco/firebarrel", "SoundSlot6", 1, 0)
+        FCAN ABC 4 BRIGHT
+        Loop
+    }
+}

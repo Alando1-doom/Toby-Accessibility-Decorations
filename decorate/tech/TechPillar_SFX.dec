@@ -1,0 +1,13 @@
+ACTOR TechPillar_SFX 48
+{
+    Radius 16
+    Height 128
+    ProjectilePassHeight -16
+    +SOLID
+    States
+    {
+    Spawn:
+        ELEC A 1 A_PlaySoundEx("deco/techpillar", "Auto", 1, 0)
+        Loop
+    }
+}
