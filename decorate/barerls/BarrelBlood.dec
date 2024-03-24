@@ -1,0 +1,22 @@
+ACTOR BarrelBlood
+{
+    Radius 2
+    Height 4
+    +NOBLOCKMAP
+    +MISSILE
+    +DROPOFF
+    +NOTELEPORT
+    +CANNOTPUSH
+    +ALLOWPARTICLES
+    +NOGRAVITY
+    Mass 5
+    States
+    {
+    Spawn:
+        PUFF B 1
+        Goto Death
+    Death:
+        PUFF C 6 A_PlaySoundEx("deco/barrelpain", "SoundSlot5", 0, 0)
+        Stop
+    }
+}

@@ -1,0 +1,35 @@
+//Gore
+#include "decorate/gore/BloodyTwitch_SFX.dec"
+#include "decorate/gore/BloodyTwitch2_SFX.dec"
+#include "decorate/gore/HangingMan_SFX.dec"
+#include "decorate/gore/HangingMan2_SFX.dec"
+#include "decorate/gore/ImpaledGuy_SFX.dec"
+#include "decorate/gore/OneLegMan_SFX.dec"
+#include "decorate/gore/OneLegMan2_SFX.dec"
+
+//Torches
+#include "decorate/torches/BlueTorch_SFX.dec"
+#include "decorate/torches/GreenTorch_SFX.dec"
+#include "decorate/torches/RedTorch_SFX.dec"
+#include "decorate/torches/ShortBlueTorch_SFX.dec"
+#include "decorate/torches/ShortGreenTorch_SFX.dec"
+#include "decorate/torches/ShortRedTorch_SFX.dec"
+
+//Barrels
+#include "decorate/barerls/BarrelBlood.dec"
+#include "decorate/barerls/BurningBarrel_SFX.dec"
+#include "decorate/barerls/ExplosiveBarrel_SFX.dec"
+
+//Barrel-related inventory item. Seemingly unused.
+#include "decorate/barerls/inventory/IsBarrel.dec"
+
+//Hell
+#include "decorate/hell/EvilEye_SFX.dec"
+#include "decorate/hell/FloatingSkull_SFX.dec"
+#include "decorate/hell/HeartColumn_SFX.dec"
+
+//Tech
+#include "decorate/tech/Column_SFX.dec"
+#include "decorate/tech/TechLamp_SFX.dec"
+#include "decorate/tech/TechLamp2_SFX.dec"
+#include "decorate/tech/TechPillar_SFX.dec"

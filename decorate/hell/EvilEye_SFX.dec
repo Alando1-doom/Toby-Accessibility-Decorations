@@ -1,0 +1,14 @@
+ACTOR EvilEye_SFX 41
+{
+    Radius 16
+    Height 54
+    ProjectilePassHeight -16
+    +SOLID
+    States
+    {
+    Spawn:
+        CEYE A 6 BRIGHT A_PlaySoundEx("deco/evileye", "Auto", 1, 0)
+        CEYE BCB 6 BRIGHT
+        Loop
+    }
+}
