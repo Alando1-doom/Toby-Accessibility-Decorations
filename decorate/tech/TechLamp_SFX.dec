@@ -1,0 +1,14 @@
+ACTOR TechLamp_SFX 85
+{
+    Radius 16
+    Height 80
+    ProjectilePassHeight -16
+    +SOLID
+    States
+    {
+    Spawn:
+        TLMP A 4 BRIGHT A_PlaySoundEx("deco/floorlamp", "SoundSlot6", 1, 0)
+        TLMP BCD 4 BRIGHT
+        Loop
+    }
+}

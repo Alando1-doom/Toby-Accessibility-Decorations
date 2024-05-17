@@ -1,23 +1,23 @@
-$rolloff deco/torch	linear	88 384
-deco/torch		fireloop
-$rolloff deco/firebarrel	linear	88 384
-deco/firebarrel		firefx11
-$rolloff deco/barrel	linear	48 384
-deco/barrel		acidloop
-deco/barrelpain		dsmetal1
-$rolloff deco/floorlamp	linear	56 384
-deco/floorlamp		dslhum3
-$rolloff deco/heartbeat	linear	48 192
-deco/heartbeat		pheart
-$rolloff deco/evileye	linear	40 320
-deco/evileye			evileye
-$rolloff deco/skullrock	linear	56 320
-deco/skullrock		skulrock
-$rolloff deco/moan	linear	56 320
-deco/moan				moan2
-$rolloff deco/techpillar	linear	56 320
-deco/techpillar		techplr
-$rolloff deco/twitchhang	linear	48 320
-deco/twitchhang		twchang
-$rolloff deco/impaled	linear	48 320
-deco/impaled			twcimpal
+$rolloff deco/torch         linear  88 384
+deco/torch                  fireloop
+$rolloff deco/firebarrel    linear 88 384
+deco/firebarrel             firefx11
+$rolloff deco/barrel        linear 48 384
+deco/barrel                 acidloop
+deco/barrelpain             dsmetal1
+$rolloff deco/floorlamp     linear 56 384
+deco/floorlamp              dslhum3
+$rolloff deco/heartbeat     linear 48 192
+deco/heartbeat              pheart
+$rolloff deco/evileye       linear 40 320
+deco/evileye                evileye
+$rolloff deco/skullrock     linear 56 320
+deco/skullrock              skulrock
+$rolloff deco/moan          linear 56 320
+deco/moan                   moan2
+$rolloff deco/techpillar    linear 56 320
+deco/techpillar             techplr
+$rolloff deco/twitchhang    linear 48 320
+deco/twitchhang             twchang
+$rolloff deco/impaled       linear 48 320
+deco/impaled                twcimpal

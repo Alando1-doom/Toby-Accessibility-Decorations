@@ -1,0 +1,14 @@
+ACTOR FloatingSkull_SFX 42
+{
+    Radius 16
+    Height 26
+    ProjectilePassHeight -16
+    +SOLID
+    States
+    {
+    Spawn:
+        FSKU A 6 BRIGHT A_PlaySoundEx("deco/skullrock", "Auto", 1, 0)
+        FSKU BC 6 BRIGHT
+        Loop
+    }
+}

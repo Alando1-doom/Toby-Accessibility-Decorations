@@ -1,0 +1,15 @@
+ACTOR GreenTorch_SFX 45
+{
+    Game Doom
+    Radius 16
+    Height 68
+    ProjectilePassHeight -16
+    +SOLID
+    States
+    {
+    Spawn:
+        TGRN A 0 Bright A_PlaySoundEx("deco/torch", "SoundSlot5", 1, 0)
+        TGRN ABCD 4 BRIGHT
+        Loop
+    }
+}

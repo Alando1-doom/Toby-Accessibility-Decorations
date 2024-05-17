@@ -1,0 +1,13 @@
+ACTOR IsBarrel : Inventory
+{
+    inventory.pickupmessage " "
+    inventory.icon "TNT1A0"
+    inventory.amount 1
+    inventory.maxamount 1
+    States
+    {
+    Spawn:
+        TNT1 A 6
+        loop
+    }
+}
