@@ -16,12 +16,12 @@
 #include "decorate/torches/ShortRedTorch_SFX.dec"
 
 //Barrels
-#include "decorate/barerls/BarrelBlood.dec"
-#include "decorate/barerls/BurningBarrel_SFX.dec"
-#include "decorate/barerls/ExplosiveBarrel_SFX.dec"
+#include "decorate/barrels/BarrelBlood.dec"
+#include "decorate/barrels/BurningBarrel_SFX.dec"
+#include "decorate/barrels/ExplosiveBarrel_SFX.dec"
 
 //Barrel-related inventory item. Seemingly unused.
-#include "decorate/barerls/inventory/IsBarrel.dec"
+#include "decorate/barrels/inventory/IsBarrel.dec"
 
 //Hell
 #include "decorate/hell/EvilEye_SFX.dec"

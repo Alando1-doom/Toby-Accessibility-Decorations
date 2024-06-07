@@ -8,7 +8,7 @@ ACTOR GreenTorch_SFX 45
     States
     {
     Spawn:
-        TGRN A 0 Bright A_PlaySoundEx("deco/torch", "SoundSlot5", 1, 0)
+        TGRN A 0 Bright A_PlaySoundEx("deco/torch2", "SoundSlot5", 1, 0)
         TGRN ABCD 4 BRIGHT
         Loop
     }

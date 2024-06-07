@@ -8,7 +8,7 @@ ACTOR BlueTorch_SFX 44
     States
     {
     Spawn:
-        TBLU A 0 Bright A_PlaySoundEx("deco/torch", "SoundSlot5", 1, 0)
+        TBLU A 0 Bright A_PlaySoundEx("deco/torch2", "SoundSlot5", 1, 0)
         TBLU ABCD 4 BRIGHT
         Loop
     }
