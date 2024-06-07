@@ -8,7 +8,7 @@ ACTOR RedTorch_SFX 46
     States
     {
     Spawn:
-        TRED A 0 Bright A_PlaySoundEx("deco/torch", "SoundSlot5", 1, 0)
+        TRED A 0 Bright A_PlaySoundEx("deco/torch2", "SoundSlot5", 1, 0)
         TRED ABCD 4 BRIGHT
         Loop
     }
