@@ -7,7 +7,7 @@ ACTOR TechLamp2_SFX 86
     States
     {
     Spawn:
-        TLP2 A 4 BRIGHT A_PlaySoundEx("deco/floorlamp", "SoundSlot6", 1, 0)
+        TLP2 A 4 BRIGHT A_PlaySoundEx("deco/floorlamp2", "SoundSlot6", 1, 0)
         TLP2 BCD 4 BRIGHT
         Loop
     }
