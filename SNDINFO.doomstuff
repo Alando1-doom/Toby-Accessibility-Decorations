@@ -9,6 +9,10 @@ deco/barrel		acidloop
 deco/barrelpain		dsmetal1
 $rolloff deco/floorlamp	linear	56 384
 deco/floorlamp		dslhum3
+$rolloff deco/floorlamp2	linear	56 384
+deco/floorlamp2		techlmp2
+$rolloff deco/floorlamp3	linear	56 384
+deco/floorlamp3		techlmp3
 $rolloff deco/heartbeat	linear	48 192
 deco/heartbeat		pheart
 $rolloff deco/evileye	linear	40 320
