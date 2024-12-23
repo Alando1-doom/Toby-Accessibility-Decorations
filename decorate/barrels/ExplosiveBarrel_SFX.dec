@@ -1,54 +1,40 @@
-ACTOR ExplosiveBarrel_SFX 2035
+ACTOR ExplosiveBarrel_Toby replaces ExplosiveBarrel
 {
-    Game Doom
-    SpawnID 125
-    Health 20
-    Radius 10
-    Height 42
-    BloodType "BarrelBlood", "Scorch"
-    Species "XBarrel"
-    +SOLID
-    +SHOOTABLE
-    +ACTIVATEMCROSS
-    +DONTGIB
-    +NOICEDEATH
-    +OLDRADIUSDMG
-    +ISMONSTER
-    +NOTARGET
-    +NOBLOODDECALS
-    -COUNTKILL
+	Game Doom
+	SpawnID 125
+	PainChance 255
+	Health 20
+	Radius 10
+	Height 42
+	+SOLID
+	+SHOOTABLE
+	+NOBLOOD
+	+ACTIVATEMCROSS
+	+DONTGIB
+	+NOICEDEATH
+	+OLDRADIUSDMG
+	+ISMONSTER
+	-COUNTKILL
+	DeathSound "world/barrelx"
+	Obituary "$OB_BARREL"
     PainSound "deco/barrelpain"
-    DeathSound "world/barrelx"
-    Obituary "$OB_BARREL"
     States
     {
     Spawn:
-        BAR1 A 0 A_PlaySoundEx("deco/barrel", "SoundSlot7", 1, 0)
-        //BAR1 A 1 A_GiveInventory("IsBarrel", 1)
-        BAR1 A 1 A_SetSpecies("XBarrel")
-        BAR1 AB 6
-        Goto See
-    See:
-        BAR1 A 0 A_PlaySoundEx("deco/barrel", "SoundSlot7", 1, 0)
-        //BAR1 A 1 A_GiveInventory("IsBarrel", 1)
-        BAR1 A 1 A_SetSpecies("XBarrel")
+        BAR1 A 0 A_PlaySoundEx("deco/barrel", "Auto", 1, 0)
         BAR1 AB 6
         Loop
-    Melee:
-        BAR1 A 6 A_FaceTarget
-        BAR1 B 6
-        Goto See
     Pain:
-        BAR1 A 1 A_PlaySoundEx("deco/barrelpain", "SoundSlot5", 0, 0)
-        Goto See
-    Death:
-        BEXP A 5 BRIGHT
-        BEXP B 5 BRIGHT A_Scream
-        BEXP C 5 BRIGHT
-        BEXP D 5 BRIGHT A_Explode
-        BEXP E 10 BRIGHT
-        BEXP E 1050 BRIGHT A_BarrelDestroy
-        BEXP E 5 A_Respawn
-        Wait
+        BAR1 A 2 A_PlaySoundEx("deco/barrelpain", "Auto", 0, 0)
+        Goto Spawn
+	Death:
+		BEXP A 5 BRIGHT
+		BEXP B 5 BRIGHT A_Scream
+		BEXP C 5 BRIGHT
+		BEXP D 5 BRIGHT A_Explode
+		BEXP E 10 BRIGHT
+		BEXP E 1050 BRIGHT A_BarrelDestroy
+		BEXP E 5 A_Respawn
+		Wait
     }
-}
+}	
